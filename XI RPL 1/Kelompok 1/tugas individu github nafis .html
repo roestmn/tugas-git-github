@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas Individu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+    }
+
+    header h1 {
+      margin: 10px 0;
+      font-size: 28px;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    section {
+      background: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+
+    section:hover {
+      transform: scale(1.02);
+    }
+
+    section h2 {
+      color: #4facfe;
+      margin-bottom: 10px;
+      font-size: 22px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    code {
+      display: block;
+      background: #282c34;
+      color: #61dafb;
+      padding: 10px;
+      border-radius: 8px;
+      margin-top: 10px;
+      font-family: Consolas, monospace;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nama: Nafis Ikhsan</h1>
+    <h1>Kelompok 1</h1>
+    <p>Saya berkontribusi dalam penyiapan materi dan pembuatan   PPT</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Penjelasan Git Revert</h2>
+      <p>Saya dari kelompok 1 akan menjelaskan apa itu <b>Git Revert</b>.</p>
+      <p>
+        <b>Git revert</b> adalah perintah yang digunakan untuk membatalkan perubahan yang telah dilakukan 
+        pada repository Git. Perintah ini membuat commit baru yang membatalkan perubahan commit sebelumnya, 
+        sehingga riwayat perubahan tetap terjaga.
+      </p>
+    </section>
+
+    <section>
+      <h2>Kegunaan Git Revert</h2>
+      <p>
+        Perintah <b>git revert</b> biasanya digunakan ketika kita ingin membatalkan perubahan yang telah 
+        dilakukan, tetapi tidak ingin menghapus riwayat perubahan tersebut. Dengan begitu, commit lama 
+        tetap ada dan bisa dilihat kembali di masa depan.
+      </p>
+    </section>
+
+    <section>
+      <h2>Cara Menggunakan Git Revert</h2>
+      <p>
+        Untuk menggunakan perintah ini, kita perlu mengetahui <i>hash commit</i> yang ingin dibatalkan.
+        Setelah itu, jalankan perintah berikut:
+      </p>
+      <code>git revert abc123</code>
+      <p>
+        Perintah di atas akan membuat commit baru yang membatalkan perubahan dari commit dengan hash 
+        <b>abc123</b>.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
