@@ -1,0 +1,11 @@
+# Kontribusi Anggota
+
+**Nama:** Reyhan Abdurrahman  
+**Kelas/Kelompok:** XI PPL 2 - Kelompok 2
+
+---
+
+## Kontribusi:
+
+- Memahami dan mempresentasikan materi *Introduction to Git: Kembali ke Masa Lalu*
+- Mengupload materi presentasi ke repository
