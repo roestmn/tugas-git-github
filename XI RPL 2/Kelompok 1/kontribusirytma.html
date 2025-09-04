@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Git Checkout - Penjelasan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Apa saja <code> berkontribusi</code> dalam Kelompok?</h1>
+
+    <div class="section">
+      <p>Saya <code>berkontribusi</code> membantu membuat canva dan percobaan <code>git checkout</code> & <code>git reset</code> dari command prompt.</p>
+
+      <p>Siapa saja yang berkontribusi mencoba Git reset dalam command prompt?</p>
+      <ul>
+        <li>Rithma</li>
+        <li>Neval</li>
+        <li>Faisal</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Cara penggunaan Git Checkout</h2>
+      <ul>
+        <li><code>&lt;nama-cabang&gt;</code> — Beralih ke cabang lokal tertentu.</li>
+        <li><code>-b &lt;cabang baru&gt;</code> — Membuat dan langsung beralih ke cabang baru.</li>
+        <li><code>-b &lt;cabang baru&gt; --track &lt;cabang jarak jauh&gt;</code> — Membuat cabang baru dengan pelacakan ke cabang remote.</li>
+        <li><code>&lt;jalur-berkas&gt; &lt;hash-komit&gt;</code> — Memulihkan versi lama dari berkas tertentu.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Contoh Penggunaan</h2>
+      <pre><code>$ git checkout other-branch</code></pre>
+      <p>Menjadikan <code>other-branch</code> sebagai cabang aktif.</p>
+
+      <pre><code>$ git checkout -b new-branch</code></pre>
+      <p>Membuat dan langsung beralih ke <code>new-branch</code>.</p>
+
+      <pre><code>$ git checkout -b new-branch --track origin/develop</code></pre>
+      <p>Membuat cabang lokal baru yang melacak <code>origin/develop</code>.</p>
+
+      <pre><code>$ git checkout 8a7b201 index.html</code></pre>
+      <p>Memulihkan <code>index.html</code> dari commit <code>8a7b201</code>.</p>
+
+      <pre><code>$ git checkout HEAD index.html</code></pre>
+      <p>Reset <code>index.html</code> ke versi terakhir yang dikomit.</p>
+    </div>
+  </body>
+</html>
