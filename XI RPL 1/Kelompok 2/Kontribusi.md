@@ -12,6 +12,7 @@
 - Menjelaskan konsep dan cara kerja perintah `git reset`.
 - Membuat slide presentasi untuk topik **"Git Reset"**.
 
-## 👤 Rustaman – Git Revert
+## 👤 Rust ganteng  – Git Revert
 - Menjelaskan dan mempraktikkan penggunaan perintah `git revert`.
 - Menyusun slide presentasi untuk topik **"Git Revert"**.
+
