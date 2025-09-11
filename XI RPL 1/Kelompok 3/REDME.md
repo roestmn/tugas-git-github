@@ -1,1 +1,6 @@
 # upload tugas disini
+Kontribusi Raffa = Membuat nama tugas silde anggota 
+Kontribusi Fahri = Membuat silde Git Branch 
+Kontribusi Septian = Mempresentasikan contoh kerja Branch
+Kontribusi Zefi = Membuat slide Git Merge cara kerjanya
+Kontribusi Riki = Mempresentasikan apa itu Git Conflict
