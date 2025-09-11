@@ -1,25 +1,17 @@
-Tugas Per Anggota
+# 📌 Pembagian Tugas Anggota
 
-M Gibran – Melihat Detail Perubahan
+## 👤 M. Gibran – Melihat Detail Perubahan
+- Menjelaskan dan mendemonstrasikan cara melihat detail perubahan pada Git.
+- Membuat slide presentasi untuk topik **"Melihat Detail Perubahan"**.
 
-Bertugas menjelaskan dan mempraktikkan cara melihat detail perubahan d
+## 👤 Rafi – Git Checkout
+- Menjelaskan dan mempraktikkan penggunaan perintah `git checkout`.
+- Menyusun slide presentasi untuk topik **"Git Checkout"**.
 
-dan membuat ppt pada slide melihat detail perubahan
+## 👤 Dhiya – Git Reset
+- Menjelaskan konsep dan cara kerja perintah `git reset`.
+- Membuat slide presentasi untuk topik **"Git Reset"**.
 
-Rafi – Checkout
-
-Bertugas menjelaskan dan mempraktikkan cara menggunakan git checkout
-
-dan membuat ppt pada slide git checkout
-
-Dhiya – Reset
-
-Menjelaskan cara kerja perintah git reset
-
-dan membuat ppt pada slide git reset
-
-Rustaman – Revert
-
-Bertugas Menjelaskan dan mempraktikkan fungsi git revert
-
-dan membuat ppt pada slide git reset
+## 👤 Rustaman – Git Revert
+- Menjelaskan dan mempraktikkan penggunaan perintah `git revert`.
+- Menyusun slide presentasi untuk topik **"Git Revert"**.
